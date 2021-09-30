@@ -16,9 +16,9 @@ body {
 }
 
 .container{
-    width: 100px;
+    width: 100%;
     display: flex;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .slide{
@@ -50,5 +50,5 @@ body {
 
 .slide.active h3{
     opacity: 1;
-    transition: opacity 0.3 ease-in;
+    transition: opacity 0.3 ease-in 0.5;
 }
